@@ -23,7 +23,7 @@ var newGameElem = document.getElementById('js-newGameElement'),
 	resultsElem = document.getElementById('js-resultsTableElement'),
 	winnerBanner = document.getElementById('js-winnerBanner');
 
-var winScore = 4;
+var winScore = 10;
 var winner;
 function setGameElements() {
 	switch (gameState) {
